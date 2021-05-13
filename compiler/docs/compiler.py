@@ -222,6 +222,7 @@ def pyrogram_api():
             set_slow_mode
             mark_chat_unread
             get_chat_event_log
+            get_chat_online_count
         """,
         users="""
         Users
@@ -394,6 +395,7 @@ def pyrogram_api():
             CallbackQuery
             GameHighScore
             CallbackGame
+            BotCommand
         """,
         input_media="""
         Input Media

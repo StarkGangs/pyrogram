@@ -24,6 +24,8 @@ inputPeerUser#dde8a54c user_id:long access_hash:long = InputPeer;
 inputPeerChannel#27bcbbfc channel_id:long access_hash:long = InputPeer;
 inputPeerUserFromMessage#a87b0a1c peer:InputPeer msg_id:int user_id:long = InputPeer;
 inputPeerChannelFromMessage#bd2a0840 peer:InputPeer msg_id:int channel_id:long = InputPeer;
+inputFile#f52ff27f id:long parts:int name:string md5_checksum:string = InputFile;
+inputFileBig#fa4f0bb5 id:long parts:int name:string = InputFile;
 
 inputUserEmpty#b98886cf = InputUser;
 inputUserSelf#f7c1b13f = InputUser;
